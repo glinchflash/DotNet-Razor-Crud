@@ -1,12 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
-
+Console.WriteLine("Hello");
+Console.WriteLine(builder.Configuration.GetConnectionString("DEFAULT_CONNECTION"));
+Console.WriteLine("World");
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<RazorCrudChampionContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("RazorCrudChampionContext") ?? throw new InvalidOperationException("Connection string 'RazorCrudChampionContext' not found.")));
-
+//builder.Configuration.GetConnectionString("RazorCrudChampionContext")
+options.UseSqlServer(builder.Configuration.GetConnectionString("GENERATED") ?? throw new InvalidOperationException("Something Went Wrong")));
+    
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
