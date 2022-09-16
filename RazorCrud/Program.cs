@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using RazorCrud.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +8,22 @@ builder.Services.AddDbContext<RazorCrudChampionContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RazorCrudChampionContext") ?? throw new InvalidOperationException("Connection string 'RazorCrudChampionContext' not found.")));
 
 var app = builder.Build();
+
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+
+        try
+        {
+            SeedData.Initialize(services);
+        }
+        catch (Exception ex)
+        {
+            var logger = services.GetRequiredService<ILogger<Program>>();
+            logger.LogError(ex, "An error occurred seeding the DB.");
+        }
+    }
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -27,3 +43,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+

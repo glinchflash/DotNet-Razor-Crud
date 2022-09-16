@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[6.0.0, )"
