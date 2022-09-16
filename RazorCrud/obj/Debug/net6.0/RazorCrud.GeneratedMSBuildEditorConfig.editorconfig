@@ -71,6 +71,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Summoners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbW9uZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Summoners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbW9uZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Summoners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbW9uZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Summoners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbW9uZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Summoners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbW9uZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,3 +106,7 @@ build_metadata.AdditionalFiles.CssScope = b-tmd8mqkn8w
 [C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q16xb9yo57
+
+[C:/Users/glenn/Desktop/becode/mygithub/DotNet-Razor-Crud/RazorCrud/Pages/Shared/_Summoners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TdW1tb25lcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-02nh3qxz5l

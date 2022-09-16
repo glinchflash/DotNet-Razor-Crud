@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<RazorCRUDSummonerContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RazorCRUDSummonerContext") ?? throw new InvalidOperationException("Connection string 'RazorCRUDSummonerContext' not found.")));
 builder.Services.AddDbContext<RazorCrudItemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RazorCrudItemContext") ?? throw new InvalidOperationException("Connection string 'RazorCrudItemContext' not found.")));
 builder.Services.AddDbContext<RazorCrudChampionContext>(options =>
@@ -42,6 +44,20 @@ var app = builder.Build();
         }
     }
 
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+
+        try
+        {
+            SeedDataSummoner.Initialize(services);
+        }
+        catch (Exception ex)
+        {
+            var logger = services.GetRequiredService<ILogger<Program>>();
+            logger.LogError(ex, "An error occurred seeding the DB.");
+        }
+    }
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

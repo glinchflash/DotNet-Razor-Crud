@@ -6,11 +6,11 @@
     <title>@ViewData["Title"] - RazorCrud</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/Items.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Summoners.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-Black  border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-red border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" id="navlinks" asp-area="" asp-page="/Index">RazorCrud</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -19,21 +19,21 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" id="navlinks" asp-area="" asp-page="/Index">Home</a>
-                        </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="navlinks" asp-area="" asp-page="/Index">Home</a>
+                              </li>
                         <li class="nav-item">
                             <a class="nav-link" id="navlinks" asp-area="" asp-page="/Items/Create">create</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link" id="navlinks" asp-area="" asp-page="/Champions/index">All Champions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="navlinks" asp-area="" asp-page="/Items/index">All Items</a>
-                        </li>
-                         <li class="nav-item">
-                             <a class="nav-link" id="navlinks" asp-area="" asp-page="/Summoners/index">All Summoners</a>
-                          </li>
+                            </li> 
+                             <li class="nav-item">
+                                 <a class="nav-link" id="navlinks" asp-area="" asp-page="/Champions/index">All Champions</a>
+                                 </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" id="navlinks" asp-area="" asp-page="/Items/index">All Items</a>
+                                  </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navlinks" asp-area="" asp-page="/Summoners/index">All Summoners</a>
+                                    </li>
                     </ul>
                 </div>
             </div>

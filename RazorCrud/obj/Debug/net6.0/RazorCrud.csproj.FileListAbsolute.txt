@@ -264,3 +264,4 @@ C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\bin\Debug\net
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\Pages\Shared\_Items.cshtml.rz.scp.css
+C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\Pages\Shared\_Summoners.cshtml.rz.scp.css

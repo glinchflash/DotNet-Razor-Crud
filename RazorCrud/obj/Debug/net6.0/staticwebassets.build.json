@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fSuykAnULapP8dlE+ZyYLXpk+6SE9Sq7IAqr9/zzHG8=",
+  "Hash": "O/Ympx9EUHedKJ301Ul+oBoUhtiVzGpcnAVN5WdukRo=",
   "Source": "RazorCrud",
   "BasePath": "_content/RazorCrud",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\wwwroot\\css\\Summoners.css",
+      "SourceId": "RazorCrud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\wwwroot\\",
+      "BasePath": "_content/RazorCrud",
+      "RelativePath": "css/Summoners.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Summoners.css"
     },
     {
       "Identity": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\wwwroot\\favicon.ico",
