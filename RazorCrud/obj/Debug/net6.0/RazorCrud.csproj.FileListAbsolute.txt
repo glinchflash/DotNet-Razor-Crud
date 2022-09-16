@@ -16,7 +16,6 @@ C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\RazorCrud.RazorAssemblyInfo.cs
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\bundle\RazorCrud.styles.css
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\projectbundle\RazorCrud.bundle.scp.css
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\RazorCrud.dll
@@ -263,3 +262,5 @@ C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\bin\Debug\net
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\glenn\Desktop\becode\mygithub\DotNet-Razor-Crud\RazorCrud\obj\Debug\net6.0\scopedcss\Pages\Shared\_Items.cshtml.rz.scp.css

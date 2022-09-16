@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UiKVFVSRUMXKk9j8dOCzUxHEgy6exZ1fMnqtkr6BURw=",
+  "Hash": "fSuykAnULapP8dlE+ZyYLXpk+6SE9Sq7IAqr9/zzHG8=",
   "Source": "RazorCrud",
   "BasePath": "_content/RazorCrud",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RazorCrud.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\wwwroot\\css\\Items.css",
+      "SourceId": "RazorCrud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\wwwroot\\",
+      "BasePath": "_content/RazorCrud",
+      "RelativePath": "css/Items.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Items.css"
     },
     {
       "Identity": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\DotNet-Razor-Crud\\RazorCrud\\wwwroot\\css\\site.css",
